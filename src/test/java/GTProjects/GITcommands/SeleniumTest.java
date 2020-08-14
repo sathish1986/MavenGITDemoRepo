@@ -19,5 +19,4 @@ public class SeleniumTest {
 		Assert.assertTrue(true);
 	}
 
-
 }

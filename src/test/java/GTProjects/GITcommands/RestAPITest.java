@@ -13,5 +13,9 @@ public class RestAPITest {
 	void RestApiTest2() {
 		System.out.println("API Automation with Rest Assured");
 	}
+	@Test
+	void RestApiTest3() {
+		System.out.println("API Automation with Rest Assured");
+	}
 
 }

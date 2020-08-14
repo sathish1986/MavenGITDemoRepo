@@ -5,7 +5,7 @@
     <classes>
       <class name="GTProjects.GITcommands.SeleniumTest">
         <methods>
-          <include name="ApplicationLaunch"/>
+          <include name="ApplicationLaunch2"/>
         </methods>
       </class> <!-- GTProjects.GITcommands.SeleniumTest -->
     </classes>
