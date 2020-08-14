@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="216" started-at="2020-08-14T17:12:42Z" finished-at="2020-08-14T17:12:42Z">
+  <suite name="Default suite" duration-ms="55" started-at="2020-08-14T21:18:05Z" finished-at="2020-08-14T21:18:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="216" started-at="2020-08-14T17:12:42Z" finished-at="2020-08-14T17:12:42Z">
+    <test name="Default test" duration-ms="55" started-at="2020-08-14T21:18:05Z" finished-at="2020-08-14T21:18:05Z">
       <class name="GTProjects.GITcommands.SeleniumTest">
-        <test-method status="PASS" signature="ApplicationLaunch()[pri:0, instance:GTProjects.GITcommands.SeleniumTest@1f1c7bf6]" name="ApplicationLaunch" duration-ms="22" started-at="2020-08-14T17:12:42Z" finished-at="2020-08-14T17:12:42Z">
+        <test-method status="PASS" signature="ApplicationLaunch()[pri:0, instance:GTProjects.GITcommands.SeleniumTest@5b0abc94]" name="ApplicationLaunch" duration-ms="18" started-at="2020-08-14T21:18:05Z" finished-at="2020-08-14T21:18:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ApplicationLaunch -->
-        <test-method status="FAIL" signature="ApplicationLaunch2()[pri:0, instance:GTProjects.GITcommands.SeleniumTest@1f1c7bf6]" name="ApplicationLaunch2" duration-ms="12" started-at="2020-08-14T17:12:42Z" finished-at="2020-08-14T17:12:42Z">
-          <exception class="java.lang.AssertionError">
+        <test-method status="FAIL" signature="ApplicationLaunch2()[pri:0, instance:GTProjects.GITcommands.SeleniumTest@5b0abc94]" name="ApplicationLaunch2" duration-ms="2" started-at="2020-08-14T21:18:05Z" finished-at="2020-08-14T21:18:05Z">
+          <exception class="java.lang.Error">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
+              <![CDATA[java.lang.Error: Unresolved compilation problem: 
+Syntax error, insert ";" to complete BlockStatements
+
 at GTProjects.GITcommands.SeleniumTest.ApplicationLaunch2(SeleniumTest.java:19)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -50,35 +50,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ApplicationLaunch2 -->
-        <test-method status="PASS" signature="browserTest()[pri:0, instance:GTProjects.GITcommands.SeleniumTest@1f1c7bf6]" name="browserTest" duration-ms="9" started-at="2020-08-14T17:12:42Z" finished-at="2020-08-14T17:12:42Z">
+        <test-method status="PASS" signature="browserTest()[pri:0, instance:GTProjects.GITcommands.SeleniumTest@5b0abc94]" name="browserTest" duration-ms="1" started-at="2020-08-14T21:18:05Z" finished-at="2020-08-14T21:18:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserTest -->
       </class> <!-- GTProjects.GITcommands.SeleniumTest -->
-      <class name="GTProjects.GITcommands.RestAPITest">
-        <test-method status="PASS" signature="RestApiTest()[pri:0, instance:GTProjects.GITcommands.RestAPITest@25b485ba]" name="RestApiTest" duration-ms="8" started-at="2020-08-14T17:12:42Z" finished-at="2020-08-14T17:12:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- RestApiTest -->
-        <test-method status="PASS" signature="RestApiTest2()[pri:0, instance:GTProjects.GITcommands.RestAPITest@25b485ba]" name="RestApiTest2" duration-ms="3" started-at="2020-08-14T17:12:42Z" finished-at="2020-08-14T17:12:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- RestApiTest2 -->
-      </class> <!-- GTProjects.GITcommands.RestAPITest -->
-      <class name="GTProjects.GITcommands.MobileTest">
-        <test-method status="PASS" signature="AppiumTest()[pri:0, instance:GTProjects.GITcommands.MobileTest@2b546384]" name="AppiumTest" duration-ms="11" started-at="2020-08-14T17:12:42Z" finished-at="2020-08-14T17:12:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AppiumTest -->
-        <test-method status="PASS" signature="AppiumTest2()[pri:0, instance:GTProjects.GITcommands.MobileTest@2b546384]" name="AppiumTest2" duration-ms="6" started-at="2020-08-14T17:12:42Z" finished-at="2020-08-14T17:12:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AppiumTest2 -->
-      </class> <!-- GTProjects.GITcommands.MobileTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

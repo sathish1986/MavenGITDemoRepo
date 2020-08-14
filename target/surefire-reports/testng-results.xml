@@ -1,45 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="63" started-at="2020-08-14T17:29:54Z" finished-at="2020-08-14T17:29:54Z">
+  <suite name="Surefire suite" duration-ms="31" started-at="2020-08-14T21:29:21Z" finished-at="2020-08-14T21:29:21Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="63" started-at="2020-08-14T17:29:54Z" finished-at="2020-08-14T17:29:54Z">
+    <test name="Surefire test" duration-ms="31" started-at="2020-08-14T21:29:21Z" finished-at="2020-08-14T21:29:21Z">
       <class name="GTProjects.GITcommands.SeleniumTest">
-        <test-method status="PASS" signature="ApplicationLaunch()[pri:0, instance:GTProjects.GITcommands.SeleniumTest@1e67b872]" name="ApplicationLaunch" duration-ms="3" started-at="2020-08-14T17:29:54Z" finished-at="2020-08-14T17:29:54Z">
+        <test-method status="PASS" signature="ApplicationLaunch()[pri:0, instance:GTProjects.GITcommands.SeleniumTest@62043840]" name="ApplicationLaunch" duration-ms="8" started-at="2020-08-14T21:29:21Z" finished-at="2020-08-14T21:29:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ApplicationLaunch -->
-        <test-method status="PASS" signature="ApplicationLaunch2()[pri:0, instance:GTProjects.GITcommands.SeleniumTest@1e67b872]" name="ApplicationLaunch2" duration-ms="0" started-at="2020-08-14T17:29:54Z" finished-at="2020-08-14T17:29:54Z">
+        <test-method status="PASS" signature="ApplicationLaunch2()[pri:0, instance:GTProjects.GITcommands.SeleniumTest@62043840]" name="ApplicationLaunch2" duration-ms="0" started-at="2020-08-14T21:29:21Z" finished-at="2020-08-14T21:29:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ApplicationLaunch2 -->
-        <test-method status="PASS" signature="browserTest()[pri:0, instance:GTProjects.GITcommands.SeleniumTest@1e67b872]" name="browserTest" duration-ms="1" started-at="2020-08-14T17:29:54Z" finished-at="2020-08-14T17:29:54Z">
+        <test-method status="PASS" signature="browserTest()[pri:0, instance:GTProjects.GITcommands.SeleniumTest@62043840]" name="browserTest" duration-ms="0" started-at="2020-08-14T21:29:21Z" finished-at="2020-08-14T21:29:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserTest -->
       </class> <!-- GTProjects.GITcommands.SeleniumTest -->
-      <class name="GTProjects.GITcommands.RestAPITest">
-        <test-method status="PASS" signature="RestApiTest()[pri:0, instance:GTProjects.GITcommands.RestAPITest@5d624da6]" name="RestApiTest" duration-ms="1" started-at="2020-08-14T17:29:54Z" finished-at="2020-08-14T17:29:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- RestApiTest -->
-        <test-method status="PASS" signature="RestApiTest2()[pri:0, instance:GTProjects.GITcommands.RestAPITest@5d624da6]" name="RestApiTest2" duration-ms="1" started-at="2020-08-14T17:29:54Z" finished-at="2020-08-14T17:29:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- RestApiTest2 -->
-      </class> <!-- GTProjects.GITcommands.RestAPITest -->
-      <class name="GTProjects.GITcommands.MobileTest">
-        <test-method status="PASS" signature="AppiumTest()[pri:0, instance:GTProjects.GITcommands.MobileTest@2ef9b8bc]" name="AppiumTest" duration-ms="17" started-at="2020-08-14T17:29:54Z" finished-at="2020-08-14T17:29:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AppiumTest -->
-        <test-method status="PASS" signature="AppiumTest2()[pri:0, instance:GTProjects.GITcommands.MobileTest@2ef9b8bc]" name="AppiumTest2" duration-ms="0" started-at="2020-08-14T17:29:54Z" finished-at="2020-08-14T17:29:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AppiumTest2 -->
-      </class> <!-- GTProjects.GITcommands.MobileTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>
