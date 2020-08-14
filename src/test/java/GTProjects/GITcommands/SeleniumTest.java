@@ -14,6 +14,10 @@ public class SeleniumTest {
 	void ApplicationLaunch() {
 		Assert.assertTrue(true);
 	}
+	@Test
+	void ApplicationLaunch2() {
+		Assert.assertTrue(true);
+	}
 
 
 }
