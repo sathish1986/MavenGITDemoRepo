@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="134" started-at="2020-08-13T21:48:04Z" finished-at="2020-08-13T21:48:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="134" started-at="2020-08-13T21:48:04Z" finished-at="2020-08-13T21:48:05Z">
+      <class name="GTProjects.GITcommands.SeleniumScripts">
+        <test-method status="PASS" signature="ApplicationLaunch()[pri:0, instance:GTProjects.GITcommands.SeleniumScripts@5b0abc94]" name="ApplicationLaunch" duration-ms="42" started-at="2020-08-13T21:48:05Z" finished-at="2020-08-13T21:48:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplicationLaunch -->
+        <test-method status="PASS" signature="browserTest()[pri:0, instance:GTProjects.GITcommands.SeleniumScripts@5b0abc94]" name="browserTest" duration-ms="2" started-at="2020-08-13T21:48:05Z" finished-at="2020-08-13T21:48:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTest -->
+      </class> <!-- GTProjects.GITcommands.SeleniumScripts -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
