@@ -20,5 +20,10 @@ public class SeleniumTest {
 	}
         @Test
 	void ApplicationLaunch3(){
-		System.out.println("hi")
+		System.out.println("hi");
+}
+        @Test
+	void ApplicationLaunch4(){
+		System.out.println("added from eclipse");
+}
 }
