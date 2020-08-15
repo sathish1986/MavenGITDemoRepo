@@ -18,5 +18,7 @@ public class SeleniumTest {
 	void ApplicationLaunch2() {
 		Assert.assertTrue(true);
 	}
-
+        @Test
+	void ApplicationLaunch3(){
+		System.out.println("hi")
 }
