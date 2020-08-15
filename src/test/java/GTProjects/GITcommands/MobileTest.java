@@ -16,6 +16,11 @@ public class MobileTest {
 		System.out.println("Mobile Automation with Appium1");
 	}
 	
+	@Test
+	void AppiumTest3() {
+		System.out.println("Mobile Automation with Appium1");
+	}
+	
 	
 
 
